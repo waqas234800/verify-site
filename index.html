@@ -2,49 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document Verification</title>
+  <title>Secure Verification Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f6f8fa;
+      color: #333;
       padding: 40px;
       max-width: 700px;
       margin: auto;
-      background-color: #f4f4f4;
-      color: #333;
     }
     .container {
-      background: white;
+      background: #fff;
       padding: 30px;
       border-radius: 10px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-top: 20px;
+    h1 {
+      color: #1a73e8;
     }
     .disclaimer {
       font-size: 12px;
-      color: gray;
+      color: #777;
       margin-top: 40px;
-      border-top: 1px solid #ddd;
+      border-top: 1px solid #eee;
       padding-top: 10px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>✅ Document Verification</h1>
-    <p>This page verifies the authenticity of a scanned document. If you reached this page by scanning a QR code, please compare the physical document with the preview below.</p>
+    <h1>🔒 Document Status: Verified</h1>
+    <p>This page confirms that the document associated with this verification code has been received and is stored securely.</p>
+    <p>If this verification was reached via QR code, please contact the issuer for further information.</p>
 
-    <!-- 📄 Replace this image URL with your document image -->
-   <img src="https://raw.githubusercontent.com/waqas234800/verify-site/main/doc1.png.png" alt="Scanned Document">
-
-
-    <p class="disclaimer">
-      This site is used for private document verification. It is <strong>not affiliated with MOFA</strong> or any government agency. All documents shown are for educational or personal verification use only.
-    </p>
+    <div class="disclaimer">
+      ⚠️ This is a private document access page. We do not collect or share personal data. This service is not affiliated with any government organization or official body. Content is hosted for verification and record-keeping only.
+    </div>
   </div>
 </body>
 </html>
