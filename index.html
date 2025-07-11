@@ -2,11 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document Checker</title>
+  <title>Document Verification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      max-width: 700px;
+      margin: auto;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .disclaimer {
+      font-size: 12px;
+      color: gray;
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; padding: 40px;">
-  <h1>✅ This website is under maintenance</h1>
-  <p>This domain is privately owned for safe testing and educational purposes only.</p>
-  <p>No official or government content is hosted here at the moment.</p>
+<body>
+  <div class="container">
+    <h1>✅ Document Verification</h1>
+    <p>This page verifies the authenticity of a scanned document. If you reached this page by scanning a QR code, please compare the physical document with the preview below.</p>
+
+    <!-- 📄 Replace this image URL with your document image -->
+    <img src="https://via.placeholder.com/600x800?text=Scanned+Document" alt="Scanned Document Preview">
+
+    <p class="disclaimer">
+      This site is used for private document verification. It is <strong>not affiliated with MOFA</strong> or any government agency. All documents shown are for educational or personal verification use only.
+    </p>
+  </div>
 </body>
 </html>
